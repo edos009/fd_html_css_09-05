@@ -1,16 +1,10 @@
-.avatar,
-.another__avatar{
-  width: 300px;
-  height: 250px;
-  border: 3px solid red;
+*, *::after, *::before{
+  box-sizing: border-box;
 }
 
-.avatar{
-  object-fit: cover;
+h1{
+  padding: 25px;
+  border: 2px solid red;
+  
+  background-color: aquamarine;
 }
-
-.another__avatar{
-  background-image: url(./../images/dog.png);
-  background-size: cover;
-}
-
